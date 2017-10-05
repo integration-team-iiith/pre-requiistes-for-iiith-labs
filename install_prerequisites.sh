@@ -1,6 +1,16 @@
 #!/bin/sh
+#Remove firefox if the verion exceeds 50
+sudo apt-get purge
 #Update system before installing new packages
 sudo apt-get update
+# Install firefox45 version
+wget https://ftp.mozilla.org/pub/firefox/releases/45.0/linux-x86_64/en-US/firefox-45.0.tar.bz2
+tar -xjf firefox-45.0.tar.bz2
+sudo rm -rf  /opt/firefox
+sudo mv firefox /opt/firefox45
+sudo mv /usr/bin/firefox /usr/bin/firefoxold
+sudo ln -s /opt/firefox45/firefox /usr/bin/firefox
+
 #openjdk is required to install Java3d 
 sudo apt-get install -y openjdk-7-jre
 sudo apt-get install -y openjdk-7-jdk
