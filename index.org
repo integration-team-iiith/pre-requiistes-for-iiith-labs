@@ -1,0 +1,17 @@
+#+Title: Labs setup on Virtual 
+#+Date: 17-10-2017
+#+Author: Sravanthi. M
+
+** Steps to setup labs on VirtualBox
+   - Open the [[https://www.virtualbox.org/wiki/Downloads][link]], to install virtualbox.
+   - Select the distribution acordingly and download the virtualbox.
+   - Open the [[http://files.virtual-labs.ac.in/downloads/virtual-boxes/][link]], click on ubuntu-14.04-college-cloud.ova and save the file
+   - Open Virtualbox, click on the file which is on the top right
+     corner of the virtualbox- import appliances.
+   - A window to import the ubuntu file is appeared.
+   - Import the file *ubuntu-14.04-college-cloud.ova* and follow the steps to install it.
+   - Open firefox, type [[http://vlabs.ac.in/][vlabs.ac.in]] 
+   - Click on Labs ->All Labs on openedx -> Select any of the lab.
+   - Register, signin to vlabs.ac.in and enroll to use the lab.
+ 
+
