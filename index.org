@@ -3,84 +3,91 @@
 #+Author: VLEAD 
 
 * Overview and Motivation
-  Virtual Labs Team is providing a new approach to use/run Virtual
-  Labs on any machine using *VirtualBox*.
+  Virtual Labs is providing a new approach to use/run Virtual
+  Labs on any machine using [[https://www.virtualbox.org/wiki][VirtualBox]].
 
-  Visit [[https://www.virtualbox.org/wiki][VirtualBox]] for more details
-
-  With this approach we can eliminate following things
+  With this approach following things can be eliminated
   - Installing lab dependencies such adobe flash player on host
-    machine
-  - Browser types and versions
+    machine.
+  - Browser types and versions.
 
+  Main idea is to provide VirtualBox to lab users. The VirtualBox that
+  is provided by Virtual Labs can be used for both Online and offline
+  ( College Cloud) versions of Virtual Labs.
 
-  Our main idea is to provide VirtualBox to lab users. The VirtualBox
-  that we provide is, can be used for both Online and offline ( College
-  Cloud)
+  - Online version :: On the other hand the online version is
+                      available at all times but is dependent on a
+                      good Internet link.
 
-  - Online Labs ::  Online labs are the labs that are running on the
-                    AWS cloud. In order to use labs on your computer,
-                    Internet connection is needed.
+  - Offline version :: Virtual Labs College Cloud Edition is the
+       Offline and Portable Edition for Virtual Labs. It offers the
+       offline version of Virtual labs, experiments and theoretical
+       content. This edition addresses the lack of internet access or
+       poor internet connectivity across different
+       institutes/colleges. It results in a very cost-effective
+       Learning Management System. This edition could be used
+       effectively when specific experiments are being done by
+       students of a class, for specific course requirements. These
+       labs are not dependent on the quality and availability of the
+       Internet and hence would be a stable edition for longer
+       sessions.
 
-  - Offline Labs :: Offline labs are the labs that are running on the
-                    College Cloud server. The College Cloud server is
-                    a server that runs Virtual Labs on Campus/College
-                    Local LAN. So that, Internet is not required to
-                    run/use Virtual Labs.
-		    
-		    For more details about College Cloud, please visit
-                    [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/][this link]]
+       For more details about College Cloud, please visit [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/][this link]]
+       and [[https://info.vlabs.ac.in/workshops/][this link]].
 * Audience
-  Any Virtual Labs user 
-* Systems Requirements for Running VirtualBox on your machine
-  Minimum systems requirements
-  1. At least 4GB RAM
-  2. Dual Core processor
+  All Virtual Labs users.
+* Systems Requirements
+  Minimum systems requirements.
+  1. At least 4GB RAM.
+  2. Dual Core processor.
+* Install Virtual Box
+  1. Visit the [[https://www.virtualbox.org/wiki/Downloads][VirtualBox provider]] link.
+  2. Choose the appropriate VirtualBox version for your machine.
 
-* Steps to use VirtualBox to run/use  Virtual Labs
-** Install Virtual Box
-   1. Visit the [[https://www.virtualbox.org/wiki/Downloads][VirtualBox provider]] link,
-   2. Choose the appropriate VirtualBox version for your machine.
+     It would be different from OS to OS. Like Linux machine may have
+     different VirtualBox and Windows may have different VirtualBox,
+     etc.
+  3. Download appropriate VirtualBox.
+  4. Install VirtualBox On Windows.
+     1. Double click on *.exe* file
+     2. Later, it would be asking for various options, provide the
+	options and install it.
+     3. After installation, VirtualBox icon would be created on the
+        desktop.
+  5. Install VirtualBox on CentOS.
+     1. Download RPM package.
+	#+BEGIN_EXAMPLE
+	wget http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
+	#+END_EXAMPLE
+     2. Install VirtualBox.
+	#+BEGIN_EXAMPLE
+	sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
+	#+END_EXAMPLE
+* Import Virtual-Labs Virtual Box
+  1. Download the *ubuntu-14.04-college-cloud.ova* from [[http://files.virtual-labs.ac.in/downloads/virtual-boxes/][here]] and save
+     the file.
+  2. Double click on *ubuntu-14.04-college-cloud.ova* file.
+  3. A window to import will be appeared.
+  4. Import the file *ubuntu-14.04-college-cloud.ova* and follow the
+     steps to install it. It may take a few minutes ( 5 to 10
+     minutes).
+  5. Once the importing is done, Select the
+     *ubuntu-14.04-college-cloud* from the VirtualBox window. Please
+     allocate the =Processor= and =Memory/RAM= size from the Settings
+     menu appropriately.
+* Run Virtual Labs on VirtualBox
+  1. Once the importing is done, Select the
+     *ubuntu-14.04-college-cloud* from the VirtualBox window. Please
+     allocate the =Processor= and =Memory/RAM= size from the Settings
+     menu appropriately.
+  2. Start the box.
+  3. Credentials to login to *ubuntu-14.04-college-cloud*.
+     UserName : College Cloud
+     Password : cc
+  4. Open firefox, type [[http://vlabs.ac.in/][vlabs.ac.in]].
+  5. Then, start using Virtual Labs.
 
-      It would be different from OS to OS. Like Linux machine may have
-      different VirtualBox and Windows may have different VirtualBox,
-      etc.
-   3. Download appropriate VirtualBox
-   4. Install VirtualBox On Windows
-      1. Double click on *.exe* file
-      2. Later, it would be asking for various options, provide the
-         options and install it.
-      3. After installation, you will be having virtuabox icon on your
-         desktop
-   5. Install VirtualBox on CentOS
-      1. Download RPM package
-	 #+BEGIN_EXAMPLE
-	 wget http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
-	 #+END_EXAMPLE
-      2. Install VirtualBox
-	 #+BEGIN_EXAMPLE
-	 sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
-	 #+END_EXAMPLE
-** Import Virtual-Labs Virtual Box
-   1. Download the *ubuntu-14.04-college-cloud.ova* from [[http://files.virtual-labs.ac.in/downloads/virtual-boxes/][here]] and save
-      the file
-   2. Double click on *ubuntu-14.04-college-cloud.ova* file.
-   3. A window to import will be appeared.
-   4. Import the file *ubuntu-14.04-college-cloud.ova* and follow the
-      steps to install it. It may take a few minutes ( 5 to 10
-      minutes)
-   5. Once the importing is done, Select the
-      *ubuntu-14.04-college-cloud* from the VirtualBox window. Please
-      allocate the =Processor= and =Memory/RAM= size from the Settings
-      menu appropriately.
-   6. Start the box
-   7. Credentials to login to *ubuntu-14.04-college-cloud*
-      UserName : College Cloud
-      Password : cc
-   5. Open firefox, type [[http://vlabs.ac.in/][vlabs.ac.in]] 
-   6. Then Start using the Virtual Labs
-
-* Important note
-  - Please do not upgrade Firefox version
+* Please note
+  - Please do not upgrade Firefox version.
   - Java dependent Labs would not be running on other browsers such as
     Google Chrome, Chromium, etc.
