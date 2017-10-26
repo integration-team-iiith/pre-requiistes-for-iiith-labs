@@ -47,7 +47,7 @@
      3. After installation, ensure that a VirtualBox icon is created
         on the desktop.
   5. Steps 6 and 7 are installation step examples for CentOS-6.x and
-     Ubuntu 14.04. These installation steps will vary based on the
+     Ubuntu 14.04.  These installation steps will vary based on the
      version of the OS installed on the user machine.  Please follow
      the [[https://www.virtualbox.org/wiki/Linux_Downloads][link]] for appropriate steps.
   6. VirtualBox installation steps on *CentOS-6.X OS*.
