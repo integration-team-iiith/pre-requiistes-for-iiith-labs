@@ -41,32 +41,29 @@
   2. Choose the appropriate VirtualBox version based on the Operating
      System ( OS ) installed on the machine.
   3. Download the selected VirtualBox.
-  4. VirtualBox installation steps on Windows OS
+  4. VirtualBox installation steps on Windows OS.
      1. Double click on *.exe* file.
-     2. Follow the instructions appearing on installation wizard
+     2. Follow the instructions appearing on installation wizard.
      3. After installation, ensure that a VirtualBox icon is created
-        on the desktop.
-  5. VirtualBox installation steps on CentOS OS
+	on the desktop.
+  5. VirtualBox installation steps on CentOS OS.
      1. Download RPM package.
-#+BEGIN_EXAMPLE
+	#+BEGIN_EXAMPLE
 	wget http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
-#+END_EXAMPLE
-	
+	#+END_EXAMPLE
      2. Install VirtualBox.
-#+BEGIN_EXAMPLE
+	#+BEGIN_EXAMPLE
 	sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
-#+END_EXAMPLE
-
+	#+END_EXAMPLE
   6. Ubuntu 14.04.
-     1) Download VirtualBox.
-#+BEGIN_EXAMPLE
+     1. Download VirtualBox.
+	#+BEGIN_EXAMPLE
 	wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
-#+END_EXAMPLE
-
-     2) Install VirtualBox.
-#+BEGIN_EXAMPLE
+	#+END_EXAMPLE
+     2. Install VirtualBox.
+	#+BEGIN_EXAMPLE
 	sudo dpkg -i virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
-#+END_EXAMPLE
+	#+END_EXAMPLE
   7. Steps 5 and 6 are installation step examples for CentOS-6.x and
      Ubuntu 14.04. These installation steps will vary based on the
      version of the OS installed on the user machine.  Please follow
