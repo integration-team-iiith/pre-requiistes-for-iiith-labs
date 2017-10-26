@@ -6,41 +6,34 @@
   Virtual Labs is providing a new approach to use/run Virtual
   Labs on any machine using [[https://www.virtualbox.org/wiki][VirtualBox]].
 
-  With this approach following things can be eliminated
-  - Installing lab dependencies such adobe flash player on host
-    machine.
-  - Browser types and versions.
+  This approach ensures the following:
+  - Eliminates installation of dependencies such as Adobe Flash Player
+    on user machine.
+  - Eliminates dependency on browser types and versions.
 
-  Main idea is to provide VirtualBox to lab users. The VirtualBox that
-  is provided by Virtual Labs can be used for both Online and offline
-  ( College Cloud) versions of Virtual Labs.
+   The VirtualBox that is provided by Virtual Labs can be used for
+    both Online and Offline( College Cloud) versions of Virtual Labs.
 
-  - Online version :: On the other hand the online version is
-                      available at all times but is dependent on a
-                      good Internet link.
+   *Ofline version* ::
 
-  - Offline version :: Virtual Labs College Cloud Edition is the
-       Offline and Portable Edition for Virtual Labs. It offers the
-       offline version of Virtual labs, experiments and theoretical
-       content. This edition addresses the lack of internet access or
-       poor internet connectivity across different
-       institutes/colleges. It results in a very cost-effective
-       Learning Management System. This edition could be used
-       effectively when specific experiments are being done by
-       students of a class, for specific course requirements. These
-       labs are not dependent on the quality and availability of the
-       Internet and hence would be a stable edition for longer
-       sessions.
+    [[https://info.vlabs.ac.in/college-cloud-edition/][Virtual Labs College Cloud Edition]] is the Offline and Portable
+    Edition for Virtual Labs. It offers the offline version of Virtual
+    labs, experiments and theoretical content. This edition addresses
+    the lack of internet access or poor internet connectivity across
+    different institutes/colleges.
 
-       For more details about College Cloud, please visit [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/][this link]]
-       and [[https://info.vlabs.ac.in/workshops/][this link]].
+   *Online version* ::
+
+    [[https://info.vlabs.ac.in/workshops/][Virtual Labs online version]] is available at all times from
+    http://vlabs.ac.in but is dependent on a good Internet link.
+
 * Audience
   All Virtual Labs users.
 * Systems Requirements
   Minimum systems requirements.
   1. At least 4GB RAM.
   2. Dual Core processor.
-* Install Virtual Box
+* VirtualBox installation steps
   1. Visit the [[https://www.virtualbox.org/wiki/Downloads][VirtualBox provider]] link.
   2. Choose the appropriate VirtualBox version for your machine.
 
@@ -87,7 +80,7 @@
   4. Open firefox, type [[http://vlabs.ac.in/][vlabs.ac.in]].
   5. Then, start using Virtual Labs.
 
-* Please note
+* Please NOTE
   - Please do not upgrade Firefox version.
   - Java dependent Labs would not be running on other browsers such as
     Google Chrome, Chromium, etc.
