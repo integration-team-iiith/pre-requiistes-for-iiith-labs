@@ -3,37 +3,25 @@
 #+Author: VLEAD 
 
 * Overview and Motivation
-  Virtual Labs is providing a new approach to use/run Virtual Labs on
-  any machine using [[https://www.virtualbox.org/wiki][VirtualBox]].
 
-  This approach ensures the following:
-  - Eliminates installation of dependencies such as Adobe Flash Player
-    on user machine.
-  - Eliminates dependency on browser types and versions.
-
+  Virtual Labs is providing an approach to access Labs and
+  its experiments using [[https://www.virtualbox.org/wiki][VirtualBox]]. This approach ensures
+  the following: 
+  - Eliminates installation of dependencies such as Adobe
+    Flash, Java3D, etc. on user machine.
    The VirtualBox that is provided by Virtual Labs can be used for
-    both Online and Offline( College Cloud) versions of Virtual Labs.
-
-   *Ofline version* ::
-
-    [[https://info.vlabs.ac.in/college-cloud-edition/][Virtual Labs College Cloud Edition]] is the Offline and Portable
-    Edition for Virtual Labs. It offers the offline version of Virtual
-    labs, experiments and theoretical content. This edition addresses
-    the lack of internet access or poor internet connectivity across
-    different institutes/colleges.
-
-   *Online version* ::
-
-    [[https://info.vlabs.ac.in/workshops/][Virtual Labs online version]] can be accessed at all times from
-    http://vlabs.ac.in.  It is dependent on a good Internet link.
+    both [[https://info.vlabs.ac.in/workshops/][Online]] and [[https://info.vlabs.ac.in/college-cloud-edition/][Offline( College Cloud)]] versions of Virtual Labs.
 
 * Audience
   Virtual Lab users.
 
 * Systems Requirements
   Minimum systems requirements.
-  1. 4GB RAM.
-  2. Dual Core processor.
+  1. Operating Systems ( OS )- Any OS that supports Oracle
+     VirtualBox or VMWare Workstation. The machine should
+     have [[https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Virtualization_Administration_Guide/sect-Virtualization-Troubleshooting-Enabling_Intel_VT_and_AMD_V_virtualization_hardware_extensions_in_BIOS.html][provision to support Virtualization]] Technology
+  2. 4GB RAM.
+  3. Dual Core processor.
 
 * VirtualBox installation steps
   1. Visit the [[https://www.virtualbox.org/wiki/Downloads][VirtualBox]] provider link. Please note that installation
@@ -82,11 +70,11 @@
      =Memory/RAM= size from the Settings menu appropriately based on
      the system configuration of the user machine.
      
-     Recommended Settings for the imported box
-     #+BEGIN_EXAMPLE
-     Processor --> 1
-     Memory/RAM size --> 1GB
-     #+END_EXAMPLE
+     - *NOTE :: Recommended Settings for the imported box*
+       #+BEGIN_EXAMPLE
+       Processor --> 1
+       Memory/RAM size --> 1GB
+       #+END_EXAMPLE
 
 * Using VirtualBox to run Virtual Labs
   1. Windows Users: Double click the VirtualBox icon on the desktop to
