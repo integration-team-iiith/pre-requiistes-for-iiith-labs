@@ -75,7 +75,7 @@
      - *NOTE :: Recommended Settings for the imported box*
        #+BEGIN_EXAMPLE
        Processor --> 1
-       Memory/RAM size --> 1GB
+       Memory/RAM size --> 2GB
        #+END_EXAMPLE
 
 * Using VirtualBox to run Virtual Labs
