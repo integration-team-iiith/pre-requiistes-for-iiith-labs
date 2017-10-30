@@ -5,12 +5,14 @@
 * Overview and Motivation
 
   Virtual Labs is providing an approach to access Labs and
-  its experiments using [[https://www.virtualbox.org/wiki][VirtualBox]]. This approach ensures
-  the following: 
-  - Eliminates installation of dependencies such as Adobe
-    Flash, Java3D, etc. on user machine.
-   The VirtualBox that is provided by Virtual Labs can be used for
-    both [[https://info.vlabs.ac.in/workshops/][Online]] and [[https://info.vlabs.ac.in/college-cloud-edition/][Offline( College Cloud)]] versions of Virtual Labs.
+  its experiments using [[https://www.virtualbox.org/wiki][VirtualBox]]. 
+
+  This approach eliminates the need of installing dependencies
+  such as Adobe Flash, Java3D, etc. on user machine
+ 
+  The VirtualBox that is provided by Virtual Labs can be
+  used for both [[https://info.vlabs.ac.in/workshops/][Online]] and [[https://info.vlabs.ac.in/college-cloud-edition/][Offline( College Cloud)]] versions
+  of Virtual Labs.
 
 * Audience
   Virtual Lab users.
