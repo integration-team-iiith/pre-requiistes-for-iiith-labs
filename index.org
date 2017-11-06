@@ -26,8 +26,8 @@
   3. Dual Core processor.
 
 * VirtualBox installation steps
-  1. Visit the [[https://www.virtualbox.org/wiki/Downloads][VirtualBox]] provider link. Please note that installation
-     needs to be done only once.
+  1. Visit the [[https://www.virtualbox.org/wiki/Downloads][VirtualBox]] provider website. Please note that
+     installation needs to be done only once.
   2. Choose the appropriate VirtualBox version based on the Operating
      System ( OS ) installed on the machine.
   3. Download the selected VirtualBox.
@@ -58,7 +58,10 @@
        #+BEGIN_EXAMPLE
        sudo dpkg -i virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
        #+END_EXAMPLE
-
+  8. VirtualBox installation steps on *Mac OS X*
+     - Download the VirtualBox from [[http://download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-OSX.dmg][here]] and Save it.
+     - Double click on downloaded file =.dmg=.
+     - Follow the instructions and install it.
 * Virtual-Labs VirtualBox import steps  
   1. Follow the [[http://files.virtual-labs.ac.in/downloads/virtual-boxes/][link]] to download and save the
      *ubuntu-14.04-college-cloud.ova*. Please note that import steps
