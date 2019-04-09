@@ -63,7 +63,7 @@
      - Double click on downloaded file =.dmg=.
      - Follow the instructions and install it.
 * Virtual-Labs VirtualBox import steps  
-  1. Follow the [[http://exp-vlabs.iiit.ac.in/downloads/][link]] to download and save the
+  1. Follow the [[http://exp-vlabs.iiit.ac.in/downloads/ubuntu-14.04-college-cloud.ova][link]] to download and save the
      *ubuntu-14.04-college-cloud.ova*. Please note that import steps
      need to be done only once.
   2. Double click on the *ubuntu-14.04-college-cloud.ova* file.
