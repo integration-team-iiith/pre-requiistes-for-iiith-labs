@@ -5,7 +5,7 @@
 * Overview and Motivation
 
   Virtual Labs is providing an approach to access Labs and
-  its experiments using [[https://www.virtualbox.org/wiki][VirtualBox]]. 
+  its experiments using VirtualBox. 
 
   This approach eliminates the need of installing dependencies
   such as Adobe Flash, Java3D, etc. on user machine
