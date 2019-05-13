@@ -11,7 +11,7 @@
   such as Adobe Flash, Java3D, etc. on user machine
  
   The VirtualBox that is provided by Virtual Labs can be
-  used for both [[https://info.vlabs.ac.in/workshops/][Online]] and [[https://info.vlabs.ac.in/college-cloud-edition/][Offline( College Cloud)]] versions
+  used for both [[https://info.vlabs.ac.in/workshops/][Online]] and Offline(College Cloud) versions
   of Virtual Labs.
 
 * Audience
