@@ -26,7 +26,7 @@
   3. Dual Core processor.
 
 * VirtualBox installation steps
-  1. Visit the [[https://www.virtualbox.org/wiki/Downloads][VirtualBox]] provider website. Please note that
+  1. Visit the [[https://www.virtualbox.org/wiki/Download_Old_Builds_5_2[VirtualBox]] provider website. Please note that
      installation needs to be done only once.
   2. Choose the appropriate VirtualBox version based on the Operating
      System ( OS ) installed on the machine.
