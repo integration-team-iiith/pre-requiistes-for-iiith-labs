@@ -1,21 +1,22 @@
-#+Title: Run Virtual Labs on Virtual Box
-#+Date: 24-10-2017
-#+Author: VLEAD 
+#+Title: VirtualBox installation to run IIITH labs 
+#+Author: Vlead Systems Team
+#+Date: 20 Feb 2020
+
+* Introduction
+  This document has the installation process of software dependecies
+  for IIITH labs.
 
 * Overview and Motivation
 
   Virtual Labs is providing an approach to access Labs and
-  its experiments using VirtualBox. 
+  its experiments using [[https://www.virtualbox.org/wiki][VirtualBox]]. 
 
   This approach eliminates the need of installing dependencies
   such as Adobe Flash, Java3D, etc. on user machine
  
   The VirtualBox that is provided by Virtual Labs can be
-  used for both [[https://info.vlabs.ac.in/workshops/][Online]] and Offline(College Cloud) versions
+  used for both [[https://info.vlabs.ac.in/workshops/][Online]] and [[https://info.vlabs.ac.in/college-cloud-edition/][Offline( College Cloud)]] versions
   of Virtual Labs.
-
-* Audience
-  Virtual Lab users.
 
 * Systems Requirements
   Minimum systems requirements.
@@ -26,21 +27,21 @@
   3. Dual Core processor.
 
 * VirtualBox installation steps
-  1. Visit the [[https://www.virtualbox.org/wiki/Download_Old_Builds_5_2][VirtualBox]] provider website. Please note that
+  1. Visit the [[https://www.virtualbox.org/wiki/Downloads][VirtualBox]] provider website. Please note that
      installation needs to be done only once.
   2. Choose the appropriate VirtualBox version based on the Operating
      System ( OS ) installed on the machine.
   3. Download the selected VirtualBox.
-  4. VirtualBox installation steps on *Windows OS*.
+** VirtualBox installation steps on *Windows OS*.
      1. Double click on *.exe* file.
      2. Follow the instructions appearing on installation wizard.
      3. After installation, ensure that a VirtualBox icon is created
         on the desktop.
-  5. Steps 6 and 7 are installation step examples for CentOS-6.x and
-     Ubuntu 14.04.  These installation steps will vary based on the
-     version of the OS installed on the user machine.  Please follow
-     the [[https://www.virtualbox.org/wiki/Linux_Downloads][link]] for appropriate steps.
-  6. VirtualBox installation steps on *CentOS-6.X OS*.
+     - Steps 6 and 7 are installation step examples for CentOS-6.x and
+       Ubuntu 14.04.  These installation steps will vary based on the
+       version of the OS installed on the user machine.  Please follow
+       the [[https://www.virtualbox.org/wiki/Linux_Downloads][link]] for appropriate steps.
+** VirtualBox installation steps on *CentOS-6.X OS*.
      - Download RPM package.
        #+BEGIN_EXAMPLE
        wget http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
@@ -49,7 +50,7 @@
        #+BEGIN_EXAMPLE
        sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
        #+END_EXAMPLE
-  7. VirtualBox installation steps on *Ubuntu 14.04*.
+** VirtualBox installation steps on *Ubuntu 14.04*.
      - Download VirtualBox.
        #+BEGIN_EXAMPLE
        wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
@@ -58,17 +59,12 @@
        #+BEGIN_EXAMPLE
        sudo dpkg -i virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
        #+END_EXAMPLE
-  8. VirtualBox installation steps on *Mac OS X*
+** VirtualBox installation steps on *Mac OS X*
      - Download the VirtualBox from [[http://download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-OSX.dmg][here]] and Save it.
      - Double click on downloaded file =.dmg=.
      - Follow the instructions and install it.
-<<<<<<< HEAD
 * Virtual-Labs VirtualBox import steps  
   1. Follow the [[http://exp-vlabs.iiit.ac.in/downloads/][link]] /to download and save the
-=======
-* VirtualBox import steps  
-  1. Follow the [[http://exp-vlabs.iiit.ac.in/downloads/ubuntu-14.04-college-cloud.ova][link]] to download and save the
->>>>>>> 591a8393a34df14c458bcb9749e5c80ccca39644
      *ubuntu-14.04-college-cloud.ova*. Please note that import steps
      need to be done only once.
   2. Double click on the *ubuntu-14.04-college-cloud.ova* file.
@@ -94,13 +90,13 @@
   3. Select and Start *ubuntu-14.04-college-cloud* box.
   4. Login to *ubuntu-14.04-college-cloud* using the following
      credentials:
-     UserName : College Cloud
+     UserName : virtual labs
      Password : cc
   5. Open Firefox and type [[http://vlabs.ac.in/][vlabs.ac.in]] to use Virtual Labs.
   6. These steps need to be followed every time for accessing Virtual
      Labs using VirtualBox.
 
-* NOTE
+  *NOTE:*
   - Please use only Firefox ( provided in the VirtualBox ) to use
     Virtual Labs.
   - Please do not upgrade Firefox version in the VirtualBox.
